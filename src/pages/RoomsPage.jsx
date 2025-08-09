@@ -5,7 +5,7 @@ import { FiPlus, FiX, FiHome, FiDollarSign, FiUsers, FiLayers, FiEdit2, FiTrash2
 import { FaBroom, FaDoorOpen, FaWrench } from 'react-icons/fa';
 
 // Configuration
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://hotel-db-server.onrender.com';
 
 const RoomsPage = () => {
   const [rooms, setRooms] = useState([]);
