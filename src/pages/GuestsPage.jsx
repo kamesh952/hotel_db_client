@@ -4,7 +4,7 @@ import Sidebar from '../components/Sidebar';
 import { FiSearch, FiPlus, FiX, FiUser, FiMail, FiPhone, FiCreditCard, FiEdit2, FiTrash2 } from 'react-icons/fi';
 
 // Configuration
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://hotel-db-server.onrender.com';
 
 const GuestsPage = () => {
   const [guests, setGuests] = useState([]);
